@@ -4,14 +4,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise9
+namespace Exercise10
+
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Fun chess game is fun");
-            Console.ReadLine();
         }
+            public class Vehicle
+            {
+                public Vehicle()
+                {
+                    string vehicle = "ATV";
+                    Console.WriteLine("This vehicle is a {0}.", vehicle);
+                    
+                }
+                
+
+            public class Car : Vehicle
+            {
+
+            }
+
+            }
+            
+
+        
     }
 }
